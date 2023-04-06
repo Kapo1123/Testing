@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEME.com</title>
+    <link rel="stylesheet" href="meme.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <header class="header1">
+        <nav class="topbar"> 
+            <a id="meme" class=" grey-lefttop">Meme.click</a>
+            <meau class ="navbar-lefttop">
+                <div>
+                <ul class="headerlist">
+                <li class="pages">
+                    <a class="nav-link" href="main.html">Home</a>
+                </li>
+                <li class="pages">
+                    <a class="nav-link" href="explore.html">Explore</a>
+                </li>
+                <li class="pages">
+                    <a class="nav-link" href="history.html">History</a>
+                </li>
+            </ul>
+            </div>
+            <div class="botton-right">
+               <a href="login.html" id="button1">
+                <button type="submit" href="index.html">login</button></a>
+             </div>
+            </meau>
+            </nav>
+        
+    </header>
+    <main class="container">
+        <div class="login-div">
+          <h1>Welcome</h1>
+          <div id="login-table">
+            <p>Login to play</p>
+            <span class="input-group-text">🔒</span>
+            <input
+            class="form-control"
+            type="text"
+            id="userName"
+            placeholder="your@email.com"
+          />
+            <div>
+                <span class="input-group-text">&#128640</span>
+                <input
+                class="form-control"
+                type="password"
+                id="userPassword"
+                placeholder="password"
+              />
+        </div>
+            <button class="btn btn-primary" onclick="loginUser()">Login</button>
+            <button type="button" class="btn btn-primary" onclick="createUser()">
+            Create
+          </button>
+          </div>
+          
+
+
+        </div>
+        <div class="modal fade" id="msgModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content text-dark">
+                <div class="modal-body">error message here</div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </main>
+    <footer class="footer">
+        <div class="footer-width">
+            
+             <a href="https://github.com/Kapo1123/startup" class="text-left"> <span class="text-reset">Kapo</span>   GitHub</a>
+         </div>
+     </footer>
+     <script src="login.js"></script>
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    </body>
+    </html>

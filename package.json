@@ -1,0 +1,20 @@
+{
+  "name": "startup",
+  "version": "1.0.0",
+  "description": "printf(\"Hello World\") -h rrr -h int a = 123; I found it very interested using Github to write code. ![This is an image](/Startup%20Strach.png) */ You can find different types of Food in Provo, Asian, European, American, and South Americans. A website with these inforamtion can help people to decide what they want to eat and where to go on a date./*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "mongodb": "^5.2.0",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0"
+  }
+}

@@ -1,0 +1,383 @@
+  @import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
+  body{
+    display:flex;
+    flex-direction: column;
+    min-width: 375px;
+      margin: 0;
+}
+
+header{
+    flex: 0 80px;
+    flex-wrap: wrap;
+    background-color: rgba(33,37,41); ;
+    width: 100%;
+    font-size: x-large;
+}
+#meme{
+    padding-left: 0.3em;
+    border-bottom: solid rgb(182, 182, 182) thin;
+}
+  .pages{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color:white;
+    
+  }
+  .headerlist{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    width:40%;
+  }
+  .topbar{
+    color:white;
+  }
+  .navbar-lefttop{
+    text-decoration: none;
+
+  }
+  .rightside{
+    display:flex;
+    flex-direction: column;
+  }
+  .botton-right{
+    display:flex;
+    float:right;
+    align-content: center;
+    font-size: x-large;
+    
+  }
+  #button1{
+    color:green;
+  }
+  }
+  button{
+    padding:40px;
+    font:100px;
+    
+  }
+  .searchbar-middle{
+    position:fixed;
+    width:10%;
+    left:1650px;
+    top:3px;
+    color:white
+    
+  }
+  .searchTerm{
+    text-align: center;
+  }
+  a:link{
+       
+    color:white;
+}
+a:visited{
+    color:white;
+}
+
+
+
+/* /*header/* */
+
+main{
+    flex: 1 calc(100vh - 110px);
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(0, 0, 0, 0.55);
+    margin:0; 
+    
+    }
+
+    .video{
+        width:50%;
+        height:600px;
+        display:flex;
+    }
+    .titleBox{
+      display:flex;
+      flex-direction: row-reverse;
+      height:50%;
+
+    }
+    .comment{
+      border:solid blue;
+      flex-direction: row;
+      display:flex;
+      height:50%;
+      width:50%
+      
+    }
+    #commentbox{
+      flex-direction: row;
+    }
+    .form{
+        background-color:red;
+        position:fixed;
+        right:150px;
+        top: 700px;
+        display:flex;
+        flex-direction: row;
+
+    }
+    
+  .detailBox {
+      width:320px;
+      border:1px solid #bbb;
+      margin:50px;
+  }
+  .titleBox {
+    background-color: red;
+      padding:10px;
+      height: 10%;
+  }
+  .titleBox h2{
+    color:#444;
+    margin:0;
+    display:flex;
+    height:100%;
+    width:100%;
+    justify-content: center;
+  
+    
+  }
+  
+  .commentBox {
+      padding:10px;
+      border-top:1px dotted #bbb;
+  }
+  .actionBox{
+    height:70%;
+  }
+  /* .commentBox .form-group:first-child, .actionBox .form-group:first-child {
+      width:80%;
+  }
+  .commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+      width:18%;
+  } */
+  .actionBox .form-group * {
+      width:100%;
+      overflow:auto;
+  }
+  input.form_control{
+    width:70%;
+  }
+  div.form-group{
+    width:30%;
+  }
+  .taskDescription {
+      margin:auto;
+  }
+  .commentList {
+      padding:0;
+      list-style:none;
+      height:100%;
+      overflow:auto;
+  }
+  .commentList li {
+      margin:0;
+      margin-top:10px;
+  }
+  .commentList li > div {
+      display:table-cell;
+  }
+  .commenterImage {
+      width:30px;
+      margin-right:5px;
+      height:100%;
+      float:left;
+  }
+  .commenterImage img {
+      width:100%;
+      border-radius:50%;
+  }
+  .commentText p {
+      margin:0;
+  }
+  .sub-text {
+      color:#aaa;
+      font-family:verdana;
+      font-size:11px;
+  }
+  .actionBox {
+      border-top:1px dotted #bbb;
+      padding:10px;
+  }
+
+    /* footer */
+    footer {
+        display:flex;
+        flex-direction: row;
+        bottom: 0;
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(33,37,41);
+        color:white;
+        margin: 0;
+        font:200em;
+        padding: 0;
+      }
+      div.footer-width{
+        width:100%;
+      }
+
+      .text-reset{
+        justify-content: flex-end;
+        margin: 0;
+        color:white;
+      }
+      .text-left{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+      }
+      .yournum{
+        list-style: none;
+      }
+      .history-title{
+        position: relative;
+        font:bolder;
+        font-size: xx-large;
+        right: 600px;}
+      
+      .history-item{
+        list-style: none;
+        text-align: center;
+      }
+      .history-list{
+        font-size: 16px;
+        font-family: Arial;
+        text-align: center;
+        margin: 0 auto;
+      }
+      .history-name{
+ 
+        position: relative;
+        font:bolder;
+        font-size: xx-large;
+        right: 600px;
+        list-style: none;
+       
+      }
+      .history-item{
+
+    
+        position: relative;
+        font:bolder;
+        font-size: xx-large;
+      }
+
+    /* explore-page */
+     .explore-main{
+      background-color: grey;
+      display: flex;
+      flex-direction: column;
+      height:100%;
+      width:100%;
+    }
+    
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    p {
+      /* background-color: blue; */
+      color: white;
+      text-align: center;
+      width: 50%;
+    }
+    
+    div.video {
+      width: 50%;
+      height: 75%;
+      /* background-color: yellow; */
+      margin: auto 5%;
+    }
+    
+    div.card {
+      display: flex;
+      /* background-color: red; */
+      height: 0 300px;
+      width: 0 800px;
+      margin: 15px;
+      align-items: center;
+      justify-content: space-around;
+      
+    }
+    
+
+
+    /* GIF */
+   .gif{
+    border:black 20px solid;
+   }
+
+   /* Login-page */
+   .container{
+    flex: 1 calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0em;
+    width:100%;
+   }
+   div.login-div{
+    flex: 1 calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+    margin:0px;
+   }
+   #login-table{
+   
+   }
+   /* index-page */
+   .form1{
+    display:flex;
+    height: 50px;
+    justify-content: center;
+    width:100%;
+   }
+   .input1{
+    width:50%;
+    height: 50px;
+   }
+   .form_button{
+    height: 50px;
+   }
+   .div-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:400em
+   }
+   .table1{
+    width:100%;
+    font-size: x-large;
+    border:solid red;
+   }
+   .th1{
+    text-align: center;
+   }
+   .players{
+    font-size: x-large;
+    display: flex;
+    width: 100%;
+    height: 30%;
+    flex-direction: column;
+   }
+   button.delete0{
+    font-size: medium;
+   }
+   #player-messages{
+    padding-top: 10px;
+   }
+    
